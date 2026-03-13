@@ -17,10 +17,10 @@ A Python utility designed to fetch detailed information from Discord invite code
 * **Channel ID**: The unique identifier for the specific destination channel.
 * **Channel Name**: The name of the channel associated with the invite.
 
-### Requirements
-## Backend (Python)
+## Requirements
+### Backend (Python)
 * Python 3.11 or higher
 * `requests` & `platform` & `colorama` libraries
-## Front-End (Next.js)
+### Front-End (Next.js)
 * Node v22.22.1
 * `NPM` or `YARN`
