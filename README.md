@@ -24,4 +24,4 @@ A Python utility designed to fetch detailed information from Discord invite code
 * Node v22.22.1
 * `NPM` or `YARN`
 ## Preview
-![Preview](https://github.com/wpxq/DIL-Tool-V2/blob/main/diltool-web.png)
+![Preview](https://github.com/wpxq/DIL-Tool-V2/blob/main/preview.png)
