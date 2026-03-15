@@ -1,5 +1,6 @@
 "use client";
 import { useState } from 'react';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   const [code, setCode] = useState('');
@@ -44,6 +45,7 @@ export default function Home() {
 
         {data?.error && <p className="text-red-500 mt-4">Error: {data.error}</p>}
       </div>
+      <Footer />
     </div>
   );
 }
