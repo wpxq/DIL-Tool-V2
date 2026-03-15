@@ -2,7 +2,7 @@
 
 export default function Footer() {
   return (
-    <footer className="mt-140 border-t border-gray-900 pt-5">
+    <footer className="mt-10 border-t border-gray-900 pt-5">
       <div className="flex flex-col items-center justify-center gap-8">        
         <div className="select-none pointer-events-none opacity-30">
           <pre className="font-mono text-[20px] leading-none text-white animate-pulse tracking-[0.4em]">
