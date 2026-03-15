@@ -13,24 +13,26 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-black text-white p-10 font-mono">
-      <div className="max-w-xl mx-auto border border-gray-800 p-6 rounded-lg">
-        <h1 className="text-xl mb-4">
-          <span className="text-white">[</span>
-          <span className="text-magenta-500 text-purple-500">KYS</span>
-          <span className="text-white">]</span> - Discord Invite Lookup
-        </h1>
+    <div className="min-h-screen bg-black text-white p-10 font-mono flex flex-col">
+        
+        <div className="flex-1"> 
+          <div className="max-w-xl mx-auto border border-gray-800 p-6 rounded-lg">
+            <h1 className="text-xl mb-4">
+              <span className="text-white">[</span>
+              <span className="text-purple-500">KYS</span>
+              <span className="text-white">]</span> - Discord Invite Lookup
+            </h1>
 
-        <div className="flex gap-2 mb-8">
-          <span className="text-gray-500">{">"}</span>
-          <input 
-            className="bg-transparent outline-none border-b border-gray-700 flex-1"
-            value={code}
-            onChange={(e) => setCode(e.target.value)}
-            placeholder="Invite Code"
-          />
-          <button onClick={fetchInvite} className="text-purple-500 hover:text-white transition">LOOKUP</button>
-        </div>
+            <div className="flex gap-2 mb-8"> 
+              <span className="text-gray-500">{">"}</span>
+              <input 
+                className="bg-transparent outline-none border-b border-gray-700 flex-1"
+                value={code}
+                onChange={(e) => setCode(e.target.value)}
+                placeholder="Invite Code"
+              />
+              <button onClick={fetchInvite} className="text-purple-500 hover:text-white transition">LOOKUP</button>
+            </div>
 
         {data && !data.error && (
           <div className="space-y-1">
@@ -45,7 +47,8 @@ export default function Home() {
 
         {data?.error && <p className="text-red-500 mt-4">Error: {data.error}</p>}
       </div>
-      <Footer />
+    </div>
+    <Footer />
     </div>
   );
 }
