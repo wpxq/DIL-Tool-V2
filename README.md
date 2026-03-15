@@ -1,7 +1,6 @@
 # DIL Tool (Discord Invite Lookup Tool)
 
 A Python utility designed to fetch detailed information from Discord invite codes without the requirement of a Discord Bot Token. It utilizes public API endpoints to retrieve metadata regarding the invite creator, the guild, and the specific channel.
-
 ## Features
 
 ### User Information (Inviter)
@@ -24,3 +23,5 @@ A Python utility designed to fetch detailed information from Discord invite code
 ### Front-End (Next.js)
 * Node v22.22.1
 * `NPM` or `YARN`
+## Preview
+![Preview](https://github.com/wpxq/DIL-Tool-V2/blob/main/diltool-web.png)
